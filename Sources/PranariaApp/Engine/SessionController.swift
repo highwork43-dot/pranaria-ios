@@ -1,6 +1,7 @@
 import SwiftUI
 import Combine
 import UIKit
+import AVFoundation
 
 /// Обёртка над `BreathSession` для SwiftUI: тикает таймером и публикует
 /// состояние в UI.
