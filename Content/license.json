@@ -1,0 +1,22 @@
+{
+ "version": 1,
+ "payload": {
+  "licenseId": "PRANARIA-OWNER-2024-0907-HW43",
+  "holder": "Михаил Тарасов",
+  "email": "highwork43@gmail.com",
+  "level": "pro",
+  "issuedAt": "2026-11-22",
+  "expiresAt": null,
+  "purchase": {
+   "date": "2024-09-07",
+   "amount": 1179.0,
+   "currency": "RUB",
+   "receipt": "312",
+   "seller": "ООО «СалютДевайсы»",
+   "fiscalDocument": "7380440800824083",
+   "documentNumber": "57033",
+   "sign": "633983494"
+  }
+ },
+ "signature": "8a69fa767de3ca1fb0ce99b24a119fd1b31bfca211f31843542fc40c4811189f"
+}

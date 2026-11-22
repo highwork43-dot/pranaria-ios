@@ -1,0 +1,7694 @@
+[
+ {
+  "id": "program-01",
+  "index": 1,
+  "name": "Чистый разум",
+  "shortDescription": "Тренировка для начинающих",
+  "description": "\"Эта древняя Суфийская дыхательная практика предназначена для того, чтобы полностью очистить свой разум и сознание от лишних и ненужных мыслей.\n\nЧем поможет эта практика:\n● Настроиться на выполнение важной задачи или проекта;\n● Лучше сосредоточиться на текущей деятельности;\n● Посмотреть на проблему под другим углом;\n● Развить креативность и творческое мышление;\n● Улучшить способность к запоминанию и усвоению информации;\n● Найти выход из сложившейся ситуации.\"",
+  "category": "Основы дыхательной практики",
+  "categoryDescription": "Мягкие и универсальные сессии, идеально подходящие для начинающих, которые только начинают свое путешествие в мир дыхательной практики.",
+  "lengthMinutes": 240,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 3.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#9F82D9",
+  "icon": "pr1",
+  "backgroundImage": "prog01",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.5,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.2,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.5,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.7,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.8,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.9,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.1,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.2,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.3,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.4,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.5,
+     0.0
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.6,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.7,
+     0.0
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.8,
+     0.0
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     1.9,
+     0.0
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     2.0,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     2.2,
+     0.0
+    ],
+    "total": 1.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     2.3,
+     0.0
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     2.5,
+     0.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     2.7,
+     0.0
+    ],
+    "total": 2.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     2.9,
+     0.0
+    ],
+    "total": 2.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     3.1,
+     0.0
+    ],
+    "total": 2.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     3.3,
+     0.0
+    ],
+    "total": 2.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     3.5,
+     0.0
+    ],
+    "total": 3.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-02",
+  "index": 2,
+  "name": "Спокойствие",
+  "shortDescription": "Успокойте свой разум и тело",
+  "description": "\"Эта древняя Суфийская дыхательная практика направлена на полное успокоение и погружение в состояние покоя.\n\nЧем поможет эта практика:\n● Войти в состояние покоя;\n● Справиться со сложными эмоциями и переживаниями;\n● Вернуть способность рационально и ясно мыслить;\n● Снять психическое и физическое напряжение;\n● Предупредить появление панических атак.\"",
+  "category": "Осознанное дыхание для психического здоровья",
+  "categoryDescription": "Простые ежедневные практики, чтобы оставаться уравновешенным, энергичным и устойчивым в нашем суетливом мире.",
+  "lengthMinutes": 240,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 3.0,
+  "breatheType": 0,
+  "breatheWay": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#D9B582",
+  "icon": "pr2",
+  "backgroundImage": "prog02",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 2.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.1
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.2
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.3
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.4
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.5
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.6
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.7
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.8
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     0.9
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.1
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.2
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.3
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.4
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.5
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.6
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.7
+    ],
+    "total": 1.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     1.8
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.0,
+     0.0,
+     2.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-03",
+  "index": 3,
+  "name": "Расслабление",
+  "shortDescription": "Избавьтесь от лишнего напряжения",
+  "description": "\"Эта древняя Суфийская практика направлена на очищение разума и тела от накопившихся эмоций и усталости.\n\nЧем поможет эта практика:\n● Уравновесить эмоциональный фон;\n● Снять физические и телесные напряжения;\n● Отвлечься и расслабиться;\n● Переключиться на отдых;\n● Легче заснуть;\n● Снизить уровень стресса.\"",
+  "category": "Путешествия и стили дыхания",
+  "categoryDescription": "Современные программы дыхания, вдохновленные йогой и пилатесом, для соединения тела и ума.",
+  "lengthMinutes": 240,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 3.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#BC82D9",
+  "icon": "pr3",
+  "backgroundImage": "prog03",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 2.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.0,
+     0.1,
+     0.0,
+     0.1
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.2,
+     0.0,
+     0.2
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.3,
+     0.0,
+     0.3
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.4,
+     0.0,
+     0.4
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.5,
+     0.0,
+     0.5
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.6,
+     0.0,
+     0.6
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.7,
+     0.0,
+     0.7
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.8,
+     0.0,
+     0.8
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.9,
+     0.0,
+     0.9
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.0,
+     0.0,
+     1.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.1,
+     0.0,
+     1.1
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.2,
+     0.0,
+     1.2
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.3,
+     0.0,
+     1.3
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.5,
+     0.0,
+     1.5
+    ],
+    "total": 1.5,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-04",
+  "index": 4,
+  "name": "Энергия",
+  "shortDescription": "Заряд бодрости и энергии",
+  "description": "\"Эта практика, основанная на древней Ведической дыхательной гимнастике, направлена на быстрое пополнение и восстановление ресурсов организма.\n\nЧем поможет данная практика:\n● Восстановить силы за короткое время;\n● Быстро привести тело и разум в тонус;\n● Повысить физическую выносливость;\n● Избавиться от сонливости и слабости;\n● Повысить уровень осознанности и концентрации внимания;\n● Собраться с силами и сосредоточиться на процессе.\"",
+  "category": "Для него и для нее",
+  "categoryDescription": "Специальные практики, разработанные для баланса энергии и поддержки уникальных потребностей мужчин и женщин.",
+  "lengthMinutes": 240,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 3.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#FF7373",
+  "icon": "pr4",
+  "backgroundImage": "prog04",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.0,
+     0.1,
+     0.0,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.2,
+     0.0,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.3,
+     0.0,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.4,
+     0.0,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.5,
+     0.0,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.6,
+     0.0,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.7,
+     0.0,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.8,
+     0.0,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     0.9,
+     0.0,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.0,
+     0.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.1,
+     0.0,
+     0.0
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.2,
+     0.0,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.3,
+     0.0,
+     0.0
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.4,
+     0.0,
+     0.0
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.5,
+     0.0,
+     0.0
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.6,
+     0.0,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.7,
+     0.0,
+     0.0
+    ],
+    "total": 1.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.8,
+     0.0,
+     0.0
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     1.9,
+     0.0,
+     0.0
+    ],
+    "total": 1.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     2.0,
+     0.0,
+     0.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     2.2,
+     0.0,
+     0.0
+    ],
+    "total": 2.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     2.4,
+     0.0,
+     0.0
+    ],
+    "total": 2.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     2.6,
+     0.0,
+     0.0
+    ],
+    "total": 2.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.0,
+     3.0,
+     0.0,
+     0.0
+    ],
+    "total": 3.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-05",
+  "index": 5,
+  "name": "Нет стрессу",
+  "shortDescription": "Без тревоги и страха",
+  "description": "\"Этот тип тренировки используется во время военных учений в экстремальных ситуациях для быстрого смещения фокуса внимания и усиления концентрации. В Пранарии мы адаптировали эту технику для повседневного применения.\n\nЧем поможет эта практика:\n● Сконцентрироваться на текущей задаче или цели;\n● Сместить фокус внимания;\n● Снизить уровень стресса или страха;\n● Снизить тревожность;\n● Отвлечься и переключиться на другую задачу;\n● Увеличить уровень энергии и бодрости;\n● Убрать навязчивые мысли.\"",
+  "category": "Здоровые привычки дыхания",
+  "categoryDescription": "Целенаправленные сессии для избавления от зависимостей, облегчения тяги и восстановления внутренней свободы.",
+  "lengthMinutes": 240,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 3.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#5C9970",
+  "icon": "pr5",
+  "backgroundImage": "prog05",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.5,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.1,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.2,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.3,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.5,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.7,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.8,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.9,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.1,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.3,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     0.0,
+     0.0
+    ],
+    "total": 1.5,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-06",
+  "index": 6,
+  "name": "Свобода",
+  "shortDescription": "Освободитесь от всего лишнего",
+  "description": "\"Эта практика пришла к нам из дыхательной гимнастики Цигун. За счет длительной задержки дыхания на вдохе и долгого выдоха происходит полное расслабление организма, мысли очищаются, снимаются мышечные блоки. \n\nТакое дыхание улучшает усвоение кислорода в легких и стимулирует удаление углекислого газа. Появляется ощущение внутренней свободы и легкости.\n\nЧем поможет эта практика:\n● Полностью очиститься от навязчивых мыслей;\n● Убрать внутренние ограничения;\n● Убрать сдерживающие ограничивающие страхи;\n● Снизить уровень тревожности и мнительности;\n● Получить заряд бодрости и прилив энергии;\n● Освободиться от всего лишнего.\"",
+  "category": "Жизнеспособность легких и целебное дыхание",
+  "categoryDescription": "Программы дыхания, которые расширяют возможности, восстанавливают здоровье легких и укрепляют жизненную силу.",
+  "lengthMinutes": 300,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#FF884D",
+  "icon": "pr6",
+  "backgroundImage": "prog06",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 10.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.2,
+     1.0,
+     0.5,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     2.0,
+     1.0,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     3.0,
+     1.5,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     4.0,
+     2.0,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     5.0,
+     2.5,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.4,
+     6.0,
+     3.0,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     7.0,
+     3.5,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.8,
+     8.0,
+     4.0,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     9.0,
+     4.5,
+     0.0
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.2,
+     10.0,
+     5.0,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.4,
+     11.0,
+     5.5,
+     0.0
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.6,
+     12.0,
+     6.0,
+     0.0
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.8,
+     13.0,
+     6.5,
+     0.0
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.0,
+     14.0,
+     7.0,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-07",
+  "index": 7,
+  "name": "Ритмическое дыхание",
+  "shortDescription": "Научитесь дышать правильно",
+  "description": "\"Практика 'Ритмичное дыхание' - это идеальная техника для начинающих. Практика создает прочный фундамент для построения правильного дыхания людям, которые привыкли дышать поверхностно.\n\nРитмичное дыхание может практиковаться человеком любого возраста и с любым состоянием здоровья. Практика включает в себя наблюдение за дыханием и контроль над вдохом, задержкой и выдохом для соблюдения ритмичного паттерна.\n\nЧем поможет эта практика:\n● Обрести душевное и внутреннее равновесие;\n● Тренировать лёгкие и развивать глубокое дыхание;\n● Успокоить нервную систему и избавиться от напряжения;\n● Способствовать внутреннему очищению и освобождению;\n● Привести организм в тонус.\n\nТехника ритмического дыхания хорошо влияет на эмоциональный настрой человека, его самочувствие и помогает обрести душевное равновесие.\"",
+  "category": "Дыхание для жизненных потребностей",
+  "categoryDescription": "Специализированные практики, созданные для достижения ключевых целей — уверенности, сосредоточенности, исцеления и глубокого спокойствия.",
+  "lengthMinutes": 300,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 2.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#FF5B4D",
+  "icon": "pr7",
+  "backgroundImage": "prog07",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 2,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 1.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 2,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 1.5,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 1.5,
+      "fixed": false
+     }
+    ],
+    "repeats": 40,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     1.05,
+     1.05,
+     1.05,
+     1.05
+    ],
+    "total": 0.05,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.1,
+     1.1,
+     1.1,
+     1.1
+    ],
+    "total": 0.1,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.15,
+     1.15,
+     1.15,
+     1.15
+    ],
+    "total": 0.15,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.2,
+     1.2,
+     1.2,
+     1.2
+    ],
+    "total": 0.2,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.25,
+     1.25,
+     1.25,
+     1.25
+    ],
+    "total": 0.25,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.3,
+     1.3,
+     1.3,
+     1.3
+    ],
+    "total": 0.3,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.35,
+     1.35,
+     1.35,
+     1.35
+    ],
+    "total": 0.35,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.4,
+     1.4,
+     1.4,
+     1.4
+    ],
+    "total": 0.4,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.45,
+     1.45,
+     1.45,
+     1.45
+    ],
+    "total": 0.45,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.5,
+     1.5,
+     1.5,
+     1.5
+    ],
+    "total": 0.5,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.55,
+     1.55,
+     1.55,
+     1.55
+    ],
+    "total": 0.55,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.6,
+     1.6,
+     1.6,
+     1.6
+    ],
+    "total": 0.6,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.65,
+     1.65,
+     1.65,
+     1.65
+    ],
+    "total": 0.65,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.7,
+     1.7,
+     1.7,
+     1.7
+    ],
+    "total": 0.7,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.75,
+     1.75,
+     1.75,
+     1.75
+    ],
+    "total": 0.75,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.8,
+     1.8,
+     1.8,
+     1.8
+    ],
+    "total": 0.8,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.85,
+     1.85,
+     1.85,
+     1.85
+    ],
+    "total": 0.85,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.9,
+     1.9,
+     1.9,
+     1.9
+    ],
+    "total": 0.9,
+    "multiply": true
+   },
+   {
+    "phases": [
+     2.0,
+     2.0,
+     2.0,
+     2.0
+    ],
+    "total": 1.0,
+    "multiply": true
+   }
+  ]
+ },
+ {
+  "id": "program-08",
+  "index": 8,
+  "name": "Квадратное дыхание",
+  "shortDescription": "Быстро успокоиться",
+  "description": "\"Практика Квадратное дыхание используется для быстрого входа в состояние внутреннего спокойствия. Техника позволяет перейти из любого возбужденного или негативного состояния в нейтральное и уравновешенное.\n\nЧем поможет эта практика:\n● Успокоиться перед важными встречами, публичными выступлениями;\n● Убрать мандраж и волнение;\n● Быстро войти в рабочее состояние;\n● Настроиться перед принятием важного решения;\n● Войти в особое, высокопродуктивное состояние. В этот момент открывается доступ к творческим и вдохновлённым состояниям.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 360,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 4.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#8290D9",
+  "icon": "pr8",
+  "backgroundImage": "prog08",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 1.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.2,
+     0.2,
+     0.2,
+     0.2
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.3,
+     0.3,
+     0.3,
+     0.3
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.4,
+     0.4,
+     0.4
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.5,
+     0.5,
+     0.5,
+     0.5
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     0.6,
+     0.6,
+     0.6
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.7,
+     0.7,
+     0.7,
+     0.7
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.8,
+     0.8,
+     0.8,
+     0.8
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.9,
+     0.9,
+     0.9,
+     0.9
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     1.0,
+     1.0,
+     1.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.1,
+     1.1,
+     1.1,
+     1.1
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     1.2,
+     1.2,
+     1.2
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.3,
+     1.3,
+     1.3,
+     1.3
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     1.5,
+     1.5,
+     1.5
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     1.5,
+     1.5,
+     1.5
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     1.6,
+     1.6,
+     1.6
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.7,
+     1.7,
+     1.7,
+     1.7
+    ],
+    "total": 1.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.8,
+     1.8,
+     1.8,
+     1.8
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     2.0,
+     2.0,
+     2.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-09",
+  "index": 9,
+  "name": "Капалабхати",
+  "shortDescription": "Или Дыхание Огня",
+  "description": "\"Практика имеет и другое название: Дыхание Огня. Очень быстрое, ритмичное и непрерывное дыхание без пауз между вдохом и выдохом. Это базовый вид дыхания, который лежит в основе Кундалини йоги.\n\nЧем полезна эта практика:\n● Генерируется мощная энергия и мы получаем большой прилив жизненных сил;\n● Избавление организма от токсинов;\n● Укрепление нервной системы;\n● Налаживается работа иммунной системы;\n● Улучшение циркуляции крови.\n\nНа начальных этапах следует дышать не очень часто и по мере тренировок повышать сложность.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 180,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 1,
+  "breatheWay": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "soundsSettings": "tts:0",
+  "backgroundColor": "#FF8066",
+  "icon": "pr9",
+  "backgroundImage": "prog09",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.5,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.5,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     -0.1,
+     0.0,
+     -0.1,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.2,
+     0.0,
+     -0.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.3,
+     0.0,
+     -0.3,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.4,
+     0.0,
+     -0.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.5,
+     0.0,
+     -0.5,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.6,
+     0.0,
+     -0.6,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.7,
+     0.0,
+     -0.7,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.8,
+     0.0,
+     -0.8,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.9,
+     0.0,
+     -0.9,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -1.0,
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-10",
+  "index": 10,
+  "name": "Мужская сила",
+  "shortDescription": "Воля и уверенность",
+  "description": "\"Эта динамическая техника дыхания предназначена в первую очередь для мужчин. Регулярная практика помогает синхронизировать и гармонизировать энергетические процессы в организме, существенно повысить уровень энергетики. Эта программа динамическая и выполняется стоя. \n\nЧем полезна эта практика для мужчин:\n● Тренировка силы воли;\n● Усиление мужского начала;\n● Концентрация внимания;\n● Гармонизация процессов в организме;\n● Наполнение организма взрывной силой и энергией;\n● Тренировка и развитие мужских качеств личности.\n\nРекомендуется делать практику 2–3 раза в день. При правильном и регулярном выполнении мощный эффект можно почувствовать уже через несколько дней.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 240,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#82ADD9",
+  "icon": "pr10",
+  "backgroundImage": "prog10",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.1,
+     0.0,
+     0.3,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.2,
+     0.0,
+     0.7,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.3,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.0,
+     1.3,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.5,
+     0.0,
+     1.7,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     0.0,
+     2.0,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.7,
+     0.0,
+     2.3,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.8,
+     0.0,
+     2.6,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.9,
+     0.0,
+     3.0,
+     0.0
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     0.0,
+     3.3,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.1,
+     0.0,
+     3.6,
+     0.0
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     0.0,
+     4.0,
+     0.0
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.3,
+     0.0,
+     4.5,
+     0.0
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     5.0,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     5.5,
+     0.0
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     6.0,
+     0.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     6.5,
+     0.0
+    ],
+    "total": 2.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     7.0,
+     0.0
+    ],
+    "total": 2.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     8.0,
+     0.0
+    ],
+    "total": 3.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-11",
+  "index": 11,
+  "name": "Женская мудрость",
+  "shortDescription": "Спокойствие и гармония",
+  "description": "\"Эта динамическая техника дыхания предназначена в первую очередь для женщин. Регулярная практика гармонизирует тело, эмоции и разум, а также приводит в баланс симпатическую и парасимпатическую нервные системы.\n\nЧем полезна эта практика для женщин:\n● Гармонизация процессов в организме;\n● Создание внутреннего баланса;\n● Расслабление и успокоение;\n● Повышение внутренней уверенности;\n● Ощущение лёгкости и радости;\n● Новый взгляд на мир.\n\nРекомендуется делать практику 2–3 раза в день. При правильном и регулярном выполнении эффект можно почувствовать уже через несколько дней.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 360,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   3,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#F279A1",
+  "icon": "pr11",
+  "backgroundImage": "prog11",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 3,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 3,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 40,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     1.2,
+     1.3,
+     1.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.4,
+     1.6,
+     1.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     1.9,
+     1.6,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.8,
+     2.2,
+     1.8,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     2.5,
+     2.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.2,
+     2.8,
+     2.2,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.4,
+     3.1,
+     2.4,
+     0.0
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.6,
+     3.4,
+     2.6,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.8,
+     3.7,
+     2.8,
+     0.0
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.0,
+     4.0,
+     3.0,
+     0.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.2,
+     4.3,
+     3.2,
+     0.0
+    ],
+    "total": 2.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.4,
+     4.6,
+     3.4,
+     0.0
+    ],
+    "total": 2.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.6,
+     4.9,
+     3.6,
+     0.0
+    ],
+    "total": 2.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.8,
+     5.2,
+     3.8,
+     0.0
+    ],
+    "total": 2.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     4.0,
+     6.0,
+     4.0,
+     0.0
+    ],
+    "total": 3.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-12",
+  "index": 12,
+  "name": "Вместо никотина",
+  "shortDescription": "Снижение тяги",
+  "description": "\"Это дыхательное упражнение упоминается в нескольких книгах по борьбе с никотиновой зависимостью. И, опираясь на многочисленные исследования, мы адаптировали практику специально для Пранарии.\n\nЧем поможет эта практика:\n● Обогащение крови и клеток кислородом;\n● Снятие симптомов никотиновой ломки и снижение тяги;\n● Тренировка осознанности и пребывания в текущем моменте;\n● Появление чувства уверенности и легкости.\n\nПадение уровня нейромедиатора дофамина в мозге человека может приводить к активному поиску средств для его повышения. Известно, что дыхание с более продолжительным вдохом ведет к активизации организма, а дыхание с более продолжительным выдохом успокаивает. Такая практика позволяет быстро восполнить уровень дофамина.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 120,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 2.0,
+  "breatheType": 1,
+  "breatheWay": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#73BF73",
+  "icon": "pr12",
+  "backgroundImage": "prog12",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.1,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.9,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.1,
+     0.1,
+     0.1,
+     0.1
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.2,
+     0.2,
+     0.1,
+     0.1
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.2,
+     0.2,
+     0.2,
+     0.2
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.3,
+     0.2,
+     0.2,
+     0.2
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.3,
+     0.3,
+     0.2,
+     0.2
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.3,
+     0.3,
+     0.3
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.3,
+     0.3,
+     0.3
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.5,
+     0.4,
+     0.3,
+     0.3
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     0.4,
+     0.4,
+     0.3
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.7,
+     0.4,
+     0.4,
+     0.4
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.8,
+     0.4,
+     0.5,
+     0.4
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.9,
+     0.5,
+     0.6,
+     0.4
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     0.5,
+     0.6,
+     0.5
+    ],
+    "total": 1.5,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-13",
+  "index": 13,
+  "name": "Против голода",
+  "shortDescription": "Контроль питания",
+  "description": "\"Известно, что при приеме пищи у нас выделяются особые 'гормоны радости' — эндогенные опиаты. Именно они способствуют повышению настроения, снижению уровня стресса и улучшению эмоционального фона после еды (происходит усиление парасимпатических отделов нервной системы).\n\nМы адаптировали практику, за счет которой можно научиться самим активизировать парасимпатический отдел нервной системы путем правильного дыхания.\n\nВ этой практике долгий вдох будет:\n● Повышать мышечный тонус;\n● Насыщать клетки кислородом;\n● Активизировать организм.\n\nДолгий выдох будет:\n● Расслаблять все мышечные группы;\n● Снижать уровень стресса.\n\nПрактика будет полезна:\n● Каждый раз когда вы хотите перекусить чтобы заесть стресс;\n● Каждый раз когда вы хотите перекусить без настоящего физического голода;\n● Каждый раз когда вы хотите перекусить перед сном;\n● Лучше переварить пищу;\n● Стимулировать обмен веществ;\n● Снизить тягу к еде.\n\nВажно: практика не может быть заменой полноценной программе снижения веса, но является активным помощником в контроле питания.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 420,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 1,
+  "breatheWay": [
+   1,
+   0,
+   2,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#73BF73",
+  "icon": "pr13",
+  "backgroundImage": "prog13",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 5.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 4.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 7.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 3.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 2.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 10.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 80,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.1,
+     0.0,
+     0.2,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.2,
+     0.0,
+     0.4,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.3,
+     0.0,
+     0.6,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.0,
+     0.8,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.5,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     0.0,
+     1.2,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.7,
+     0.0,
+     1.4,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.8,
+     0.0,
+     1.6,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.9,
+     0.0,
+     1.8,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     0.0,
+     2.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.1,
+     0.0,
+     2.2,
+     0.0
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     0.0,
+     2.4,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.3,
+     0.0,
+     2.6,
+     0.0
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.4,
+     0.0,
+     2.8,
+     0.0
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     3.0,
+     0.0
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     0.0,
+     3.2,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.7,
+     0.0,
+     3.4,
+     0.0
+    ],
+    "total": 1.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.8,
+     0.0,
+     3.6,
+     0.0
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     0.0,
+     4.0,
+     0.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-14",
+  "index": 14,
+  "name": "Восстановление",
+  "shortDescription": "Наполнитесь силой и энергией",
+  "description": "\"Эта дыхательная практика имеет и другое название: Сударшан Крия. Практика использует естественные ритмы дыхания человека, которые гармонизируют тело, эмоции и разум.\n\nСударшан Крия устраняет стресс, усталость и негативные эмоции (гнев, разочарование, депрессия и пр.), делая вас спокойными и одновременно полными энергии, сфокусированными и в то же время расслабленными.\n\nЧем полезна эта практика:\n● Испытать спокойствие ума, радость и счастье;\n● Повысить ясность своего разума и развить творческие способности;\n● Снизить уровень стресса;\n● Восстановиться после физической болезни;\n● Оправиться после сильного стресса;\n● Улучшить общее самочувствие и состояние.\n\nПрирода изобилует различными ритмами и циклами – день следует за ночью, ночь следует за днем, времена года приходят и уходят. Подобно этому, биологические ритмы присутствуют в нашем теле, разуме и эмоциях. Когда ритмы работают слаженно и синхронно, мы испытываем чувство гармонии и благополучия. Практика настраивает работу биологических ритмов человека.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 420,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#8AC7E5",
+  "icon": "pr14",
+  "backgroundImage": "prog14",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 8,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 8,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 8,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.2,
+     0.0,
+     0.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.0,
+     0.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     0.0,
+     0.6,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     0.0,
+     1.2,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.4,
+     0.0,
+     1.4,
+     0.0
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     0.0,
+     1.6,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.8,
+     0.0,
+     1.8,
+     0.0
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     0.0,
+     2.0,
+     0.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.2,
+     0.0,
+     2.2,
+     0.0
+    ],
+    "total": 2.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.4,
+     0.0,
+     2.4,
+     0.0
+    ],
+    "total": 2.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.6,
+     0.0,
+     2.6,
+     0.0
+    ],
+    "total": 2.6,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-15",
+  "index": 15,
+  "name": "Здоровые легкие",
+  "shortDescription": "Дышите свободно",
+  "description": "\"Большинство заболеваний дыхательной системы связано с тем или иным вредным воздействием на человека факторов внешней среды. Все привыкли, что можно тренировать мышцы рук и ног, но точно так же можно тренировать и легкие. Чем активнее легкие вентилируются, тем полноценней они снабжаются кровью, и тем лучше наше общее самочувствие.\n\nЭта программа не только проветривает и очищает легкие, но и улучшает здоровье всего организма, освежая его. Также, практика очень полезна людям, чья профессия требует сильно напрягать легкие.\n\nЧем полезна эта практика:\n● Укрепление и улучшение общего состояния легких;\n● Вентиляция легких и усиление кровотока;\n● Усиление общего тонуса и иммунитета;\n● Расслабление и успокоение.\n\nРекомендуется использовать эту практику не более 4–7 минут за одну тренировку, чтобы не понижать уровень концентрации углекислого газа в крови.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 360,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#82C5D9",
+  "icon": "pr15",
+  "backgroundImage": "prog15",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 4,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 5.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 2,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 2,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.1,
+     0.0,
+     0.1,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.2,
+     0.0,
+     0.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.3,
+     0.0,
+     0.3,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.0,
+     0.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.5,
+     0.0,
+     0.5,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     0.0,
+     0.6,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.7,
+     0.0,
+     0.7,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.8,
+     0.0,
+     0.8,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.9,
+     0.0,
+     0.9,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     0.0,
+     1.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-16",
+  "index": 16,
+  "name": "Очищение легких",
+  "shortDescription": "Полноценное дыхание",
+  "description": "\"Хронические болезни легких препятствуют свободному выходу воздуха из легких. Для дыхания потребуются дополнительные усилия, в связи с чем можно почувствовать одышку.\n\nС другой стороны, повреждение структуры легких образуется в зонах газообмена, известных как альвеолы. Стенки альвеол становятся менее эластичными, и поэтому выдох воздуха из легких затрудняется. \n\nСимптомы, такие как одышка, кашель и утомляемость (чувство сильной усталости), постепенно усиливаются и могут серьезно повлиять на качество жизни.\n\nЧем полезна эта практика:\n● Воссоздание жизненной емкости легких;\n● Восстановление сатурации (насыщения крови кислородом);\n● Повышение толерантности к физическим нагрузкам;\n● Удаление мокроты из бронхолегочной системы (при ее наличии);\n● Стабилизация сна и психоэмоционального состояния.\n\nПрактика может помочь облегчить общее самочувствие, а также способствует восстановлению функции легких.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 360,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#60BFAF",
+  "icon": "pr16",
+  "backgroundImage": "prog16",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 10.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 2,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 2,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 2,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 10.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 4.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.1,
+     0.2,
+     0.2,
+     0.1
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.2,
+     0.4,
+     0.4,
+     0.2
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.3,
+     0.6,
+     0.6,
+     0.3
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.4,
+     0.8,
+     0.8,
+     0.4
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.5,
+     1.0,
+     1.0,
+     0.5
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.6,
+     1.2,
+     1.2,
+     0.6
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.7,
+     1.4,
+     1.4,
+     0.7
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.8,
+     1.6,
+     1.6,
+     0.8
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     0.9,
+     1.8,
+     1.8,
+     0.9
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     2.0,
+     2.0,
+     1.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.1,
+     2.2,
+     2.2,
+     1.1
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     2.4,
+     2.4,
+     1.2
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.3,
+     2.6,
+     2.6,
+     1.3
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.4,
+     2.8,
+     2.8,
+     1.4
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.5,
+     3.0,
+     3.0,
+     1.5
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     3.2,
+     3.2,
+     1.6
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.7,
+     3.4,
+     3.4,
+     1.7
+    ],
+    "total": 1.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.8,
+     3.6,
+     3.6,
+     1.8
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     4.0,
+     4.0,
+     2.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-17",
+  "index": 17,
+  "name": "Тренировка легких",
+  "shortDescription": "Укрепите своё здоровье",
+  "description": "\"Это древняя Ведическая техника дыхательной гимнастики, которая была разработана для тренировки и укрепления легких. Практика достаточно сложная, и ее следует выполнять уже после прохождения других дыхательных программ.\n\nПрактика имеет и другое название: Вишама Вритти. В практике делается акцент на несоблюдение одинаковой продолжительности вдоха, задержки воздуха и выдоха, что нарушает ритмичность дыхания. Эта неравномерность с одной стороны создает трудности, а с другой - дает поразительный эффект.\n\nЧем полезна эта практика:\n● Развитие дыхательной мускулатуры;\n● Восстановление и увеличение жизненной емкости легких;\n● Общее очищение легких;\n● Улучшение показателей усвоения легкими кислорода;\n● Улучшение общего тонуса организма и повышение уровня энергии.\n\nПрактика развивает и усиливает дыхательную мускулатуру, а также легкие в целом. Регулярная тренировка разовьет и расширит грудную клетку. Временная задержка дыхания способствует очищению легких и насыщает кровь кислородом.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 420,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 3.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   0,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#82BCD9",
+  "icon": "pr17",
+  "backgroundImage": "prog17",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     1.1,
+     1.1,
+     1.1,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.2,
+     1.2,
+     1.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.3,
+     1.3,
+     1.3,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.4,
+     1.4,
+     1.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.5,
+     1.5,
+     1.5,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.6,
+     1.6,
+     1.6,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.7,
+     1.7,
+     1.7,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.8,
+     1.8,
+     1.8,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.9,
+     1.9,
+     1.9,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": true
+   },
+   {
+    "phases": [
+     2.0,
+     2.0,
+     2.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": true
+   }
+  ]
+ },
+ {
+  "id": "program-18",
+  "index": 18,
+  "name": "Легочные клетки",
+  "shortDescription": "Глубокое дыхание",
+  "description": "\"Альвеолы участвуют в процессе дыхания, осуществляя газообмен с легочными капиллярами. Эта практика оказывает стимулирующий эффект на деятельность альвеол. Практику следует выполнять с осторожностью, особенно на первых занятиях.\n\nС возрастом каждый из нас привыкает к легкому и поверхностному дыханию. В результате альвеолы в легких становятся бездеятельными и фактически атрофируются.\n\nЧем полезна эта практика:\n● Научиться дышать глубоко;\n● Улучшение уровня усвоения кислорода легкими;\n● Облегчение состояния больных астмой;\n● Укрепление верхних дыхательных путей;\n● Развитие концентрации внимания;\n● Успокоение и расслабление.\n\nПосле выполнения этой дыхательной практики можно почувствовать небольшое головокружение - в таком случае следует сделать небольшой перерыв.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 420,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   3,
+   0,
+   1,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#FFA64D",
+  "icon": "pr18",
+  "backgroundImage": "prog18",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 7.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 7.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 7.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 7.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 10.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 10.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 11.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 9.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 1,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     1.0,
+     1.0,
+     1.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     1.2,
+     1.2,
+     0.0
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.4,
+     1.4,
+     1.4,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     1.6,
+     1.6,
+     0.0
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.8,
+     1.8,
+     1.8,
+     0.0
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     2.0,
+     2.0,
+     0.0
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.2,
+     2.2,
+     2.2,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.4,
+     2.4,
+     2.4,
+     0.0
+    ],
+    "total": 1.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.6,
+     2.6,
+     2.6,
+     0.0
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.8,
+     2.8,
+     2.8,
+     0.0
+    ],
+    "total": 1.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.0,
+     3.0,
+     3.0,
+     0.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.2,
+     3.2,
+     3.2,
+     0.0
+    ],
+    "total": 2.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.4,
+     3.4,
+     3.4,
+     0.0
+    ],
+    "total": 2.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.6,
+     3.6,
+     3.6,
+     0.0
+    ],
+    "total": 2.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.8,
+     3.8,
+     3.8,
+     0.0
+    ],
+    "total": 2.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     4.0,
+     4.0,
+     4.0,
+     0.0
+    ],
+    "total": 2.5,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-19",
+  "index": 19,
+  "name": "Проветривание легких",
+  "shortDescription": "Качественное дыхание",
+  "description": "\"Эта древняя ведическая техника из дыхательной гимнастики имеет и другое название: Самавета Пранаяма.\n\nВо время задержки дыхания возрастает и количество кислорода, поглощаемого кровью, и углекислого газа, выделяющегося из крови в легкие. Когда люди дышат быстро и неглубоко, газообмен между циркулирующей кровью и легкими очень мал.\n\nУсиление газообмена при выполнении Самавета Пранаямы помогает восстанавливать силы тела и улучшает здоровье.\n\nЧем поможет эта практика:\n● Тренировка легких и увеличение жизненной емкости легких;\n● Проветривание и вентиляция легких;\n● Придает бодрость и наполняет тело энергией;\n● Восстанавливает силы и улучшает общее самочувствие;\n● Тренирует осознанность и присутствие в текущем моменте.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 420,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#73BFE5",
+  "icon": "pr19",
+  "backgroundImage": "prog19",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 1.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 4,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 4,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.5,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.5,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 4,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 7.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 4,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 80,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     1.05,
+     1.1,
+     1.05,
+     0.0
+    ],
+    "total": 0.05,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.1,
+     1.2,
+     1.1,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.15,
+     1.3,
+     1.15,
+     0.0
+    ],
+    "total": 0.15,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.2,
+     1.4,
+     1.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.25,
+     1.5,
+     1.25,
+     0.0
+    ],
+    "total": 0.25,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.3,
+     1.6,
+     1.3,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.35,
+     1.7,
+     1.35,
+     0.0
+    ],
+    "total": 0.35,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.4,
+     1.8,
+     1.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.45,
+     1.9,
+     1.45,
+     0.0
+    ],
+    "total": 0.45,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.5,
+     2.0,
+     1.5,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.55,
+     2.1,
+     1.55,
+     0.0
+    ],
+    "total": 0.55,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.6,
+     2.2,
+     1.6,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.65,
+     2.3,
+     1.65,
+     0.0
+    ],
+    "total": 0.65,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.7,
+     2.4,
+     1.7,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.75,
+     2.5,
+     1.75,
+     0.0
+    ],
+    "total": 0.75,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.8,
+     2.6,
+     1.8,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.85,
+     2.7,
+     1.85,
+     0.0
+    ],
+    "total": 0.85,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.9,
+     2.8,
+     1.9,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": true
+   },
+   {
+    "phases": [
+     2.0,
+     3.0,
+     2.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": true
+   }
+  ]
+ },
+ {
+  "id": "program-20",
+  "index": 20,
+  "name": "Перед сном",
+  "shortDescription": "Глубокий и крепкий сон",
+  "description": "\"Чтобы быстро засыпать и хорошо высыпаться, обязательно нужно снижать психоэмоциональное напряжение перед сном.\n\nТехника дыхания разработана доктором медицины из Гарварда, экспертом по вопросам здравоохранения, сторонником дыхательных практик для борьбы со стрессом, тревогой и нарушениями сна.\n\nЧем поможет эта практика:\n● Быстро успокоиться и расслабиться;\n● Снять телесные напряжения;\n● Успокоить свой разум;\n● Настроиться на глубокий и крепкий сон.\n\nКогда мы нервничаем, мы дышим верхней третью грудной клетки поверхностно и часто. Такое дыхание активирует симпатическую нервную систему, ответственную за синтез стрессовых гормонов: адреналина и кортизола.\n\nГлубокое и медленное дыхание, используемое в практике, запускает парасимпатическую нервную систему, отвечающую за снижение уровня тревоги и стресса.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 240,
+  "difficulty": 4,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   6,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#8290D9",
+  "icon": "pr20",
+  "backgroundImage": "prog20",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 3.5,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     0.4,
+     0.7,
+     0.8,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.0,
+     1.8,
+     2.0,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     2.8,
+     3.2,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     3.5,
+     4.0,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.2,
+     3.9,
+     4.4,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.4,
+     4.2,
+     4.8,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.6,
+     4.6,
+     5.2,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.8,
+     4.9,
+     5.6,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.0,
+     5.2,
+     6.0,
+     0.0
+    ],
+    "total": 1.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.2,
+     5.6,
+     6.4,
+     0.0
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.4,
+     6.0,
+     6.8,
+     0.0
+    ],
+    "total": 1.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.6,
+     6.3,
+     7.2,
+     0.0
+    ],
+    "total": 1.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.8,
+     6.6,
+     7.6,
+     0.0
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     4.0,
+     7.0,
+     8.0,
+     0.0
+    ],
+    "total": 1.7,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-21",
+  "index": 21,
+  "name": "Бодрое утро",
+  "shortDescription": "Зарядитесь настроением",
+  "description": "\"Эта практика основана на древней Ведической технике из дыхательной гимнастики.\n\nПрактика состоит из двух частей:\n● 1 часть: Капалабхати (или дыхание огня). При таком дыхании генерируется мощная энергия, и мы получаем прилив жизненных сил;\n● 2 часть: Долгое и медленное дыхание с увеличивающейся продолжительностью задержки воздуха в легких.\n\nСовмещение двух типов дыхания приводит в баланс симпатическую и парасимпатическую нервные системы, гармонизирует тело, эмоции и разум.\n\nЧем поможет эта практика:\n● Получить огромный прилив жизненных сил и энергии;\n● Привести тело, ум и эмоции в баланс;\n● Повысить уверенность и внутреннюю силу;\n● Настроиться на текущий день;\n● Привести тело в тонус;\n● Существенно снизить уровень тревожности и беспокойства;\n● Избавиться от лишних мыслей.\n\nВажно: практика требует подготовки, и к ней лучше приступить после прохождения других программ.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 480,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   0,
+   0,
+   0,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#F2B230",
+  "icon": "pr21",
+  "backgroundImage": "prog21",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 8,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 4.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 2,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 2,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.5,
+      "fixed": true
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.5,
+      "fixed": true
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 10,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 4.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 3,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 2,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": true
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": true
+     }
+    ],
+    "repeats": 10,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 1,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 4.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 2,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 1,
+    "wayExhale": 2,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     1.1,
+     1.1,
+     1.1,
+     1.1
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.2,
+     1.2,
+     1.2,
+     1.2
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.3,
+     1.3,
+     1.3,
+     1.3
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.4,
+     1.4,
+     1.4,
+     1.4
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.6,
+     1.6,
+     1.6,
+     1.6
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     1.8,
+     1.8,
+     1.8,
+     1.8
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.0,
+     2.0,
+     2.0,
+     2.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.2,
+     2.2,
+     2.2,
+     2.2
+    ],
+    "total": 1.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.4,
+     2.4,
+     2.4,
+     2.4
+    ],
+    "total": 1.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.6,
+     2.6,
+     2.6,
+     2.6
+    ],
+    "total": 1.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     2.8,
+     2.8,
+     2.8,
+     2.8
+    ],
+    "total": 1.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     3.0,
+     3.0,
+     3.0,
+     3.0
+    ],
+    "total": 2.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-22",
+  "index": 22,
+  "name": "Поднять настроение",
+  "shortDescription": "Мир другими глазами",
+  "description": "\"Эта практика имеет и другое название: Сударшан Крия. Практика включает в себя естественные ритмы дыхания и гармонизирует тело, эмоции и разум.\n\nТаким способом Сударшан Крия устраняет стресс, усталость и другие негативные эмоции, при этом делая вас одновременно спокойными и полными энергии, расслабленными и в то же самое время сфокусированными.\n\nЧем поможет эта практика:\n● Стать более радостным и наполненным оптимизмом;\n● Наполниться силой и энергией;\n● Повысить ясность ума и развить творческие способности;\n● Уменьшить уровень стресса и тревожности;\n● Снизить уровень депрессивности и по-другому взглянуть на мир;\n● Расслабиться и успокоиться.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 420,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   1,
+   0,
+   1,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#9191F2",
+  "icon": "pr22",
+  "backgroundImage": "prog22",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 4,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 4,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 4,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 5,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 1.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 1.0,
+      "fixed": true
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 10,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": null,
+    "wayExhale": null,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     -0.1,
+     0.0,
+     -0.1,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.2,
+     0.0,
+     -0.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.3,
+     0.0,
+     -0.3,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.4,
+     0.0,
+     -0.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.5,
+     0.0,
+     -0.5,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.6,
+     0.0,
+     -0.6,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.7,
+     0.0,
+     -0.7,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.8,
+     0.0,
+     -0.8,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -0.9,
+     0.0,
+     -0.9,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": false
+   },
+   {
+    "phases": [
+     -1.0,
+     0.0,
+     -1.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": false
+   }
+  ]
+ },
+ {
+  "id": "program-23",
+  "index": 23,
+  "name": "Принятие решений",
+  "shortDescription": "Мыслите шире",
+  "description": "\"Эта практика имеет и другое название: Нади Шодхана пранаяма. Это простая, но очень эффективная дыхательная гимнастика.\n\nСуществуют различные стили выполнения Нади Шодханы, однако все они служат единственной цели – созданию внутреннего баланса путем регулирования потока воздуха, проходящего через носовые проходы.\n\nВсего несколько минут попеременного дыхания, и вы можете восстановить внутренний баланс и расслабить тело и разум.\n\nЧем поможет эта практика:\n● Повышает способность к концентрации ума;\n● Восстанавливает баланс левого и правого полушарий мозга;\n● Активизирует работу нервной системы;\n● Балансирует симпатическую и парасимпатическую нервные системы;\n● Способствует развитию интуитивного мышления;\n● Помогает в принятии решений.\n\nКогда мы чувствуем себя измотанными или понимаем, что делаем слишком много дел одновременно - мы энергетически разбалансированы. И именно Нади Шодхана необходима для восстановления этого баланса.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 420,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 2.0,
+  "breatheType": 0,
+  "breatheWay": [
+   3,
+   0,
+   4,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#52B8CC",
+  "icon": "pr23",
+  "backgroundImage": "prog23",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 2.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 4.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.5,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 2.5,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 2.5,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 2.5,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 3.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     1.1,
+     1.1,
+     1.1,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.2,
+     1.2,
+     1.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.3,
+     1.3,
+     1.3,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.4,
+     1.4,
+     1.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.5,
+     1.5,
+     1.5,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.6,
+     1.6,
+     1.6,
+     0.0
+    ],
+    "total": 0.6,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.7,
+     1.7,
+     1.7,
+     0.0
+    ],
+    "total": 0.7,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.8,
+     1.8,
+     1.8,
+     0.0
+    ],
+    "total": 0.8,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.9,
+     1.9,
+     1.9,
+     0.0
+    ],
+    "total": 0.9,
+    "multiply": true
+   },
+   {
+    "phases": [
+     2.0,
+     2.0,
+     2.0,
+     0.0
+    ],
+    "total": 1.0,
+    "multiply": true
+   }
+  ]
+ },
+ {
+  "id": "program-24",
+  "index": 24,
+  "name": "Удовольствие",
+  "shortDescription": "Практика осознанности",
+  "description": "\"Это древняя Ведическая техника дыхательной гимнастики. Если вы чувствуете вялость и грусть без причины, у вас нет желания и сил заниматься чем-либо, вы постоянно хотите спать, замереть и спрятаться, то вам нужно как можно быстрее восстановить внутреннюю энергию.\n\nЭта практика приводит в баланс все внутренние системы организма, гармонизирует тело, эмоции и разум.\n\nЧем поможет эта практика:\n● Вернуться в момент здесь и сейчас;\n● Тренировать осознанность;\n● Ощутить радость и бодрость;\n● Сконцентрироваться на телесных ощущениях;\n● Расслабиться и успокоиться.\n\nПрограмма помогает восстановить нормальное течение энергии через тело, чтобы вы почувствовали прилив сил, удовольствие от процесса и спокойствие.\"",
+  "category": "",
+  "categoryDescription": "",
+  "lengthMinutes": 420,
+  "difficulty": 0,
+  "mode": "training",
+  "timeInProportion": 1.0,
+  "breatheType": 0,
+  "breatheWay": [
+   3,
+   0,
+   4,
+   0
+  ],
+  "soundsSettings": "",
+  "backgroundColor": "#FF99BB",
+  "icon": "pr24",
+  "backgroundImage": "prog24",
+  "cycles": [
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 5.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 6.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 7.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 7.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 3,
+    "wayExhale": 4,
+    "swapMethods": false
+   },
+   {
+    "phases": [
+     {
+      "kind": "inhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdIn",
+      "proportion": 0.0,
+      "fixed": false
+     },
+     {
+      "kind": "exhale",
+      "proportion": 8.0,
+      "fixed": false
+     },
+     {
+      "kind": "holdOut",
+      "proportion": 0.0,
+      "fixed": false
+     }
+    ],
+    "repeats": 1,
+    "timeInProportion": null,
+    "breatheType": null,
+    "wayInhale": 4,
+    "wayExhale": 3,
+    "swapMethods": false
+   }
+  ],
+  "difficultySteps": [
+   {
+    "phases": [
+     1.05,
+     0.0,
+     1.05,
+     0.0
+    ],
+    "total": 0.05,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.1,
+     0.0,
+     1.1,
+     0.0
+    ],
+    "total": 0.1,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.15,
+     0.0,
+     1.15,
+     0.0
+    ],
+    "total": 0.15,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.2,
+     0.0,
+     1.2,
+     0.0
+    ],
+    "total": 0.2,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.25,
+     0.0,
+     1.25,
+     0.0
+    ],
+    "total": 0.25,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.3,
+     0.0,
+     1.3,
+     0.0
+    ],
+    "total": 0.3,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.35,
+     0.0,
+     1.35,
+     0.0
+    ],
+    "total": 0.35,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.4,
+     0.0,
+     1.4,
+     0.0
+    ],
+    "total": 0.4,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.45,
+     0.0,
+     1.45,
+     0.0
+    ],
+    "total": 0.45,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.5,
+     0.0,
+     1.5,
+     0.0
+    ],
+    "total": 0.5,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.55,
+     0.0,
+     1.55,
+     1.1
+    ],
+    "total": 0.55,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.6,
+     0.0,
+     1.6,
+     1.2
+    ],
+    "total": 0.6,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.65,
+     0.0,
+     1.65,
+     1.3
+    ],
+    "total": 0.65,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.7,
+     0.0,
+     1.7,
+     1.4
+    ],
+    "total": 0.7,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.75,
+     0.0,
+     1.75,
+     1.5
+    ],
+    "total": 0.75,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.8,
+     0.0,
+     1.8,
+     1.6
+    ],
+    "total": 0.8,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.85,
+     0.0,
+     1.85,
+     1.7
+    ],
+    "total": 0.85,
+    "multiply": true
+   },
+   {
+    "phases": [
+     1.9,
+     0.0,
+     1.9,
+     1.8
+    ],
+    "total": 0.9,
+    "multiply": true
+   },
+   {
+    "phases": [
+     2.0,
+     0.0,
+     2.0,
+     2.0
+    ],
+    "total": 1.0,
+    "multiply": true
+   }
+  ]
+ }
+]

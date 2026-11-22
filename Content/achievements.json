@@ -1,0 +1,373 @@
+[
+ {
+  "id": 1,
+  "name": "Пранария",
+  "description": "Стать участником сообщества Пранарии",
+  "icon": "ach1",
+  "rule": {
+   "kind": "member",
+   "threshold": 0,
+   "buckets": []
+  }
+ },
+ {
+  "id": 2,
+  "name": "Первооткрыватель",
+  "description": "Выполнить свою первую тренировку по дыханию",
+  "icon": "ach2",
+  "rule": {
+   "kind": "sessionCount",
+   "threshold": 1,
+   "buckets": []
+  }
+ },
+ {
+  "id": 3,
+  "name": "5 тренировок",
+  "description": "Выполнить 5 тренировок по дыханию",
+  "icon": "ach3",
+  "rule": {
+   "kind": "sessionCount",
+   "threshold": 5,
+   "buckets": []
+  }
+ },
+ {
+  "id": 4,
+  "name": "10 тренировок",
+  "description": "Выполнить 10 тренировок по дыханию",
+  "icon": "ach4",
+  "rule": {
+   "kind": "sessionCount",
+   "threshold": 10,
+   "buckets": []
+  }
+ },
+ {
+  "id": 5,
+  "name": "25 тренировок",
+  "description": "Выполнить 25 тренировок по дыханию",
+  "icon": "ach5",
+  "rule": {
+   "kind": "sessionCount",
+   "threshold": 25,
+   "buckets": []
+  }
+ },
+ {
+  "id": 6,
+  "name": "50 тренировок",
+  "description": "Выполнить 50 тренировок по дыханию",
+  "icon": "ach6",
+  "rule": {
+   "kind": "sessionCount",
+   "threshold": 50,
+   "buckets": []
+  }
+ },
+ {
+  "id": 7,
+  "name": "100 тренировок",
+  "description": "Выполнить 100 тренировок по дыханию",
+  "icon": "ach7",
+  "rule": {
+   "kind": "sessionCount",
+   "threshold": 100,
+   "buckets": []
+  }
+ },
+ {
+  "id": 8,
+  "name": "250 тренировок",
+  "description": "Выполнить 250 тренировок по дыханию",
+  "icon": "ach8",
+  "rule": {
+   "kind": "sessionCount",
+   "threshold": 250,
+   "buckets": []
+  }
+ },
+ {
+  "id": 9,
+  "name": "500 тренировок",
+  "description": "Выполнить 500 тренировок по дыханию",
+  "icon": "ach9",
+  "rule": {
+   "kind": "sessionCount",
+   "threshold": 500,
+   "buckets": []
+  }
+ },
+ {
+  "id": 10,
+  "name": "Создатель",
+  "description": "Создать свою дыхательную программу",
+  "icon": "ach10",
+  "rule": {
+   "kind": "programCreated",
+   "threshold": 0,
+   "buckets": []
+  }
+ },
+ {
+  "id": 11,
+  "name": "Осознанность",
+  "description": "Выполнить свою первую медитацию",
+  "icon": "ach11",
+  "rule": {
+   "kind": "meditationCount",
+   "threshold": 1,
+   "buckets": []
+  }
+ },
+ {
+  "id": 12,
+  "name": "10 медитаций",
+  "description": "Выполнить 10 медитаций",
+  "icon": "ach12",
+  "rule": {
+   "kind": "meditationCount",
+   "threshold": 10,
+   "buckets": []
+  }
+ },
+ {
+  "id": 13,
+  "name": "50 медитаций",
+  "description": "Выполнить 50 медитаций",
+  "icon": "ach13",
+  "rule": {
+   "kind": "meditationCount",
+   "threshold": 50,
+   "buckets": []
+  }
+ },
+ {
+  "id": 14,
+  "name": "100 медитаций",
+  "description": "Выполнить 100 медитаций",
+  "icon": "ach14",
+  "rule": {
+   "kind": "meditationCount",
+   "threshold": 100,
+   "buckets": []
+  }
+ },
+ {
+  "id": 15,
+  "name": "3 дня",
+  "description": "Провести 3 ежедневных тренировки",
+  "icon": "ach15",
+  "rule": {
+   "kind": "streakDays",
+   "threshold": 3,
+   "buckets": []
+  }
+ },
+ {
+  "id": 16,
+  "name": "5 дней",
+  "description": "Провести 5 ежедневных тренировок",
+  "icon": "ach16",
+  "rule": {
+   "kind": "streakDays",
+   "threshold": 5,
+   "buckets": []
+  }
+ },
+ {
+  "id": 17,
+  "name": "7 дней",
+  "description": "Провести 7 ежедневных тренировок",
+  "icon": "ach17",
+  "rule": {
+   "kind": "streakDays",
+   "threshold": 7,
+   "buckets": []
+  }
+ },
+ {
+  "id": 18,
+  "name": "14 дней",
+  "description": "Провести 14 ежедневных тренировок",
+  "icon": "ach18",
+  "rule": {
+   "kind": "streakDays",
+   "threshold": 14,
+   "buckets": []
+  }
+ },
+ {
+  "id": 19,
+  "name": "30 дней",
+  "description": "Провести 30 ежедневных тренировок",
+  "icon": "ach19",
+  "rule": {
+   "kind": "streakDays",
+   "threshold": 30,
+   "buckets": []
+  }
+ },
+ {
+  "id": 20,
+  "name": "Проверка",
+  "description": "Пройти первый тест здоровья",
+  "icon": "ach20",
+  "rule": {
+   "kind": "healthLevel",
+   "threshold": 1,
+   "buckets": []
+  }
+ },
+ {
+  "id": 21,
+  "name": "Исследователь",
+  "description": "Достичь уровня 2 в здоровье",
+  "icon": "ach21",
+  "rule": {
+   "kind": "healthLevel",
+   "threshold": 2,
+   "buckets": []
+  }
+ },
+ {
+  "id": 22,
+  "name": "Опытный",
+  "description": "Достичь уровня 3 в здоровье",
+  "icon": "ach22",
+  "rule": {
+   "kind": "healthLevel",
+   "threshold": 3,
+   "buckets": []
+  }
+ },
+ {
+  "id": 23,
+  "name": "Мастер",
+  "description": "Достичь уровня 5 в здоровье",
+  "icon": "ach23",
+  "rule": {
+   "kind": "healthLevel",
+   "threshold": 5,
+   "buckets": []
+  }
+ },
+ {
+  "id": 24,
+  "name": "Программа",
+  "description": "Пройти полностью все уровни сложности в программе",
+  "icon": "ach24",
+  "rule": {
+   "kind": "allDifficulties",
+   "threshold": 0,
+   "buckets": []
+  }
+ },
+ {
+  "id": 25,
+  "name": "3 программы",
+  "description": "Пройти 3 разных программы",
+  "icon": "ach25",
+  "rule": {
+   "kind": "distinctPrograms",
+   "threshold": 3,
+   "buckets": []
+  }
+ },
+ {
+  "id": 26,
+  "name": "5 программ",
+  "description": "Пройти 5 разных программ",
+  "icon": "ach26",
+  "rule": {
+   "kind": "distinctPrograms",
+   "threshold": 5,
+   "buckets": []
+  }
+ },
+ {
+  "id": 27,
+  "name": "10 программ",
+  "description": "Пройти 10 разных программ",
+  "icon": "ach27",
+  "rule": {
+   "kind": "distinctPrograms",
+   "threshold": 10,
+   "buckets": []
+  }
+ },
+ {
+  "id": 28,
+  "name": "Доброта",
+  "description": "Поделиться приложением с друзьями",
+  "icon": "ach28",
+  "rule": {
+   "kind": "shared",
+   "threshold": 0,
+   "buckets": []
+  }
+ },
+ {
+  "id": 29,
+  "name": "Ночь",
+  "description": "Сделать тренировку перед сном",
+  "icon": "ach29",
+  "rule": {
+   "kind": "timeOfDay",
+   "threshold": 0,
+   "buckets": [
+    "night"
+   ]
+  }
+ },
+ {
+  "id": 30,
+  "name": "День",
+  "description": "Сделать тренировку днем",
+  "icon": "ach30",
+  "rule": {
+   "kind": "timeOfDay",
+   "threshold": 0,
+   "buckets": [
+    "day"
+   ]
+  }
+ },
+ {
+  "id": 31,
+  "name": "Утро",
+  "description": "Сделать тренировку утром",
+  "icon": "ach31",
+  "rule": {
+   "kind": "timeOfDay",
+   "threshold": 0,
+   "buckets": [
+    "morning"
+   ]
+  }
+ },
+ {
+  "id": 32,
+  "name": "Вечер",
+  "description": "Сделать тренировку вечером",
+  "icon": "ach32",
+  "rule": {
+   "kind": "timeOfDay",
+   "threshold": 0,
+   "buckets": [
+    "evening"
+   ]
+  }
+ },
+ {
+  "id": 33,
+  "name": "Любое время",
+  "description": "Сделать тренировку в каждое время суток",
+  "icon": "ach33",
+  "rule": {
+   "kind": "timeOfDay",
+   "threshold": 0,
+   "buckets": []
+  }
+ }
+]
