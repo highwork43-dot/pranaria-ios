@@ -1,0 +1,84 @@
+name: Pranaria CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  core-tests:
+    name: Тесты ядра (Linux)
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Установить Swift
+        uses: swift-actions/setup-swift@v2
+        with:
+          swift-version: "6.2"
+
+      - name: Тесты ядра
+        run: swift test --parallel
+
+      - name: Сборка приложения для iOS (без подписи) — проверка компиляции
+        run: swift build
+
+  build-ios:
+    name: Сборка .ipa (macOS)
+    runs-on: macos-14
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Установить XcodeGen
+        run: brew install xcodegen
+
+      - name: Сгенерировать проект
+        run: xcodegen generate
+
+      - name: Проверить версию Xcode
+        run: xcodebuild -version
+
+      - name: Сборка Release для устройства
+        run: |
+          set -euo pipefail
+          xcodebuild \
+            -project Pranaria.xcodeproj \
+            -scheme Pranaria \
+            -configuration Release \
+            -sdk iphoneos \
+            -destination 'generic/platform=iOS' \
+            -derivedDataPath build/DerivedData \
+            CODE_SIGNING_ALLOWED=NO \
+            CODE_SIGNING_REQUIRED=NO \
+            CODE_SIGN_IDENTITY="" \
+            build | tee build/xcodebuild.log
+
+      - name: Упаковать .ipa
+        run: |
+          set -euo pipefail
+          mkdir -p build/Payload
+          APP=$(find build/DerivedData/Build/Products/Release-iphoneos -maxdepth 1 -name "*.app" | head -1)
+          echo "Приложение: $APP"
+          cp -R "$APP" build/Payload/
+          cd build && zip -qry Pranaria-unsigned.ipa Payload
+          ls -la Pranaria-unsigned.ipa
+
+      - name: Приложить .ipa
+        uses: actions/upload-artifact@v4
+        with:
+          name: Pranaria-unsigned-ipa
+          path: build/Pranaria-unsigned.ipa
+          retention-days: 30
+
+      - name: Приложить лог сборки
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: xcodebuild-log
+          path: build/xcodebuild.log
+          retention-days: 7
