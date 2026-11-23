@@ -46,6 +46,7 @@ jobs:
       - name: Сборка Release для устройства
         run: |
           set -euo pipefail
+          mkdir -p build
           xcodebuild \
             -project Pranaria.xcodeproj \
             -scheme Pranaria \
