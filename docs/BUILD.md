@@ -5,7 +5,29 @@
 Сборку iOS-приложения выполняет только Xcode, а Xcode работает только на macOS.
 На Linux/macOS-сборку можно вынести в облачный CI.
 
-## Вариант A — свой Mac
+## Вариант A — GitHub Actions (работает, бесплатно)
+
+Репозиторий публичный → macOS-Intel-раннеры бесплатны.
+
+```bash
+gh workflow run ci.yml
+gh run watch $(gh run list --workflow ci.yml --limit 1 --json databaseId -q '.[0].databaseId')
+bash Tools/ci.sh --download     # забрать build/Pranaria-unsigned.ipa
+```
+
+Важно: образ `macos-14` (ARM) платный и job отменяется — нужен `macos-13`.
+
+## Вариант B — Codemagic (запасной)
+
+Конфиг `codemagic.yaml` в корне репозитория. Требуется API-ключ:
+
+```bash
+mkdir -p ~/.config/pranaria
+printf '%s' 'ВАШ_КЛЮЧ' > ~/.config/pranaria/codemagic_api_key
+bash Tools/codemagic_build.sh
+```
+
+## Вариант C — свой Mac
 
 1. Установить [XcodeGen](https://github.com/yonaskolb/XcodeGen):
    ```bash

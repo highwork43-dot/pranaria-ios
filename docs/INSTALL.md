@@ -6,7 +6,14 @@
 
 ## Шаг 1. Получить .ipa
 
-Основной бесплатный путь — Codemagic (500 macOS-минут/мес):
+Основной бесплатный путь — GitHub Actions (репозиторий публичный, macos-13 бесплатен):
+
+```bash
+bash Tools/ci.sh          # собрать .ipa и скачать артефакт
+bash Tools/ci.sh --download
+```
+
+Запасной путь — Codemagic (500 macOS-минут/мес):
 
 1. Зарегистрироваться на <https://codemagic.io/> (вход через GitHub).
 2. Добавить репозиторий `highwork43-dot/pranaria-ios`.
