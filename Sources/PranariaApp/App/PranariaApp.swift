@@ -62,7 +62,7 @@ enum AppPaths {
         ) {
             return url
         }
-        let candidate = URL(fileURLWithPath: CatalogController.packageRoot)
+        let candidate = URL(fileURLWithPath: AppPaths.packageRoot)
             .appendingPathComponent("Content/license.json")
         return FileManager.default.fileExists(atPath: candidate.path) ? candidate : nil
     }

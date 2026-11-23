@@ -12,13 +12,13 @@ final class CatalogController: ObservableObject {
         do {
             if let url = CatalogLoader.locate(
                 resource: "programs", extension: "json",
-                searchPaths: [Self.packageRoot]
+                searchPaths: [AppPaths.packageRoot]
             ) {
                 programs = try CatalogLoader.loadPrograms(from: url)
             }
             if let url = CatalogLoader.locate(
                 resource: "achievements", extension: "json",
-                searchPaths: [Self.packageRoot]
+                searchPaths: [AppPaths.packageRoot]
             ) {
                 achievements = try CatalogLoader.loadAchievements(from: url)
             }
@@ -46,9 +46,6 @@ final class CatalogController: ObservableObject {
     func programs(inCategoryTitle title: String) -> [Program] {
         programs.filter { $0.categoryTitle == title }
     }
-
-    /// Корень пакета (рядом с Content/) — для запуска из исходников и тестов.
-    static var packageRoot: String { AppPaths.packageRoot }
 }
 
 /// Прогресс, аналитика и достижения — обёртки над ядром.
