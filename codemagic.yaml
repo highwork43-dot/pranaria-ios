@@ -1,26 +1,32 @@
-# Запасной вариант CI: Codemagic (бесплатный тариф, macOS-сборка).
+# Сборка iOS-приложения в облаке Codemagic (бесплатно: 500 macOS-минут/мес).
 #
-# Нужен аккаунт codemagic.io (привязка GitHub) — тогда workflow запускается
-# автоматически при пуше в main, а .ipa скачивается из дашборда.
+# Подключение:
+#   1. Зарегистрироваться на codemagic.io (вход через GitHub).
+#   2. Добавить репозиторий highwork43-dot/pranaria-ios.
+#   3. В настройках приложения включить этот конфиг (файл уже в корне репозитория).
 #
-# Требуется XcodeGen — ставится через brew в build phase.
+# Вручную:
+#   bash Tools/codemagic_build.sh            # запустить сборку и забрать .ipa
+#   bash Tools/codemagic_build.sh --download # забрать последний артефакт
+#
+# Требуется API-ключ Codemagic (Settings → API keys) в переменной окружения:
+#   export CODEMAGIC_API_KEY=...
 
 ios_workflow:
   name: Pranaria iOS
   instance_type: mac_mini_m2
-  max_build_duration: 30
-
-  environment:
-    ios_signing: {}
+  max_build_duration: 40
 
   scripts:
     - name: Установить XcodeGen
       script: |
         brew install xcodegen
-    - name: Сгенерировать проект
+
+    - name: Сгенерировать проект Xcode
       script: |
         xcodegen generate
-    - name: Сборка Release
+
+    - name: Сборка Release для устройства (без подписи)
       script: |
         set -euo pipefail
         xcodebuild \
@@ -33,20 +39,28 @@ ios_workflow:
           CODE_SIGNING_ALLOWED=NO \
           CODE_SIGNING_REQUIRED=NO \
           CODE_SIGN_IDENTITY="" \
-          build
+          build | tee build/xcodebuild.log
+
     - name: Упаковать .ipa
       script: |
         set -euo pipefail
         mkdir -p build/Payload
         APP=$(find build/DerivedData/Build/Products/Release-iphoneos -maxdepth 1 -name "*.app" | head -1)
+        echo "Собранное приложение: $APP"
         cp -R "$APP" build/Payload/
-        cd build && zip -qry Pranaria-unsigned.ipa Payload
+        cd build
+        zip -qry Pranaria-unsigned.ipa Payload
+        ls -la Pranaria-unsigned.ipa
 
   artifacts:
     - path: build/Pranaria-unsigned.ipa
       name: Pranaria-unsigned-ipa
+    - path: build/xcodebuild.log
+      name: xcodebuild-log
+      optional: true
 
   test:
+    # Проверка ядра на macOS: подтверждает, что код собирается и с SDK Apple.
     test_script: |
       set -euo pipefail
       swift test
@@ -55,3 +69,4 @@ ios_workflow:
     push:
       branches:
         - main
+    workflow_dispatch:
