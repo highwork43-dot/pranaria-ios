@@ -11,7 +11,8 @@
 | Зачем | У пользователя куплена вечная версия (чек №312 от 07.09.2024, 1179 ₽, SberDevices); официальной iOS-версии нет |
 | Где | `/home/mikhail/.zcode/workspace/0d939a70-5906-4d16-912b-f0d1de355517/pranaria-ios` |
 | Репозиторий | https://github.com/highwork43-dot/pranaria-ios (приватный) |
-| Состояние | ядро собрано, 32 теста проходят на Linux, ресурсы на месте; iOS-сборка ждёт запуска в CI |
+| Состояние | ядро собрано, 32 теста проходят на Linux и в CI; iOS-сборка идёт в GitHub Actions (macos-13) |
+| Репозиторий | публичный — именно это открыло бесплатные macOS-раннеры GitHub |
 
 ## 1. Проверить прямо сейчас (Linux, без iPhone)
 
@@ -37,35 +38,39 @@ bash Tools/verify.sh
 
 ## 2. Собрать .ipa (нужен macOS — используется облачный CI)
 
-### Вариант A. GitHub Actions (рекомендуется)
+### Вариант A. GitHub Actions (работает)
 
-Токен `gh` должен иметь scope `workflow`:
-
-```bash
-gh auth refresh -h github.com -s workflow
-# откроется https://github.com/login/device — ввести код и подтвердить
-```
-
-Дальше:
+Репозиторий публичный → бесплатные macOS-образы **Intel** (`macos-13`).
+Образ `macos-14` (ARM) платный, его job отменяется сразу.
 
 ```bash
 bash Tools/ci.sh              # коммит + push + запуск + ожидание + скачивание
-# или скачать последний артефакт:
-bash Tools/ci.sh --download
+bash Tools/ci.sh --download   # только забрать последний артефакт
 ```
 
 Результат: `build/Pranaria-unsigned.ipa`.
 
 CI состоит из двух джобов (`.github/workflows/ci.yml`):
-* `core-tests` — ubuntu-latest: `swift test` (те же 32 теста);
-* `build-ios` — macos-14: XcodeGen → `xcodebuild` (Release, iphoneos,
-  без подписи) → упаковка в `.ipa` → артефакт.
+* `core-tests` — ubuntu-24.04: `swift test` (32 теста, проходят);
+* `build-ios` — macos-13: XcodeGen → `xcodebuild` (Release, iphoneos,
+  без подписи) → упаковка в `.ipa` → артефакт `Pranaria-unsigned-ipa`.
 
-### Вариант B. Codemagic (если нет scope `workflow`)
+Очередь бесплатных macOS-раннеров бывает 15–40 минут — это нормально.
 
-В репозитории лежит `codemagic.yaml`. Зарегистрироваться на codemagic.io,
-привязать репозиторий — сборка пойдёт автоматически, `.ipa` забирается из
-дашборда.
+Если push с workflow-файлом отклоняется, нужен scope:
+```bash
+gh auth refresh -h github.com -s workflow
+```
+
+### Вариант B. Codemagic (запасной)
+
+В репозитории лежит `codemagic.yaml`, ключ сохранён в
+`~/.config/pranaria/codemagic_api_key`. **Но на этом аккаунте не работает:**
+GitHub App не отдаёт Codemagic список веток и файл `codemagic.yaml`
+(в UI «codemagic.yaml not found»), поэтому Codemagic использует свой
+Flutter-шаблон и падает на `pubspec.yaml`. Нужен доступ приложения —
+GitHub → Settings → Applications → Installed GitHub Apps → Codemagic CI/CD →
+Configure → Repository access → All repositories → Save.
 
 ### Вариант C. Свой Mac
 
