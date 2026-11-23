@@ -6,13 +6,29 @@
 
 ## Шаг 1. Получить .ipa
 
+Основной бесплатный путь — Codemagic (500 macOS-минут/мес):
+
+1. Зарегистрироваться на <https://codemagic.io/> (вход через GitHub).
+2. Добавить репозиторий `highwork43-dot/pranaria-ios`.
+3. Создать API-ключ (Settings → API keys) и сохранить его:
+   ```bash
+   mkdir -p ~/.config/pranaria
+   printf '%s' 'ВАШ_КЛЮЧ' > ~/.config/pranaria/codemagic_api_key
+   ```
+4. Запустить сборку и забрать артефакт:
+   ```bash
+   bash Tools/codemagic_build.sh
+   ```
+
+Запасной путь — GitHub Actions (нужен macOS-раннер, доступен для приватных
+репозиториев только при привязанном способе оплаты):
+
 ```bash
 bash Tools/ci.sh          # собрать в CI и скачать артефакт
-# или только скачать последний:
 bash Tools/ci.sh --download
 ```
 
-Результат: `build/Pranaria-unsigned.ipa`.
+Результат в обоих случаях: `build/Pranaria-unsigned.ipa`.
 
 ## Шаг 2A. Установка с Linux (Sideloadly)
 

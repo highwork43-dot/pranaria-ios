@@ -17,7 +17,14 @@ OUTDIR="$ROOT/build"
 REPO_SLUG="${REPO_SLUG:-highwork43-dot/pranaria-ios}"
 API="https://api.codemagic.io/v1"
 
-: "${CODEMAGIC_API_KEY:?Задайте CODEMAGIC_API_KEY (Settings → API keys на codemagic.io)}"
+# Ключ можно задать переменной окружения или положить в файл (безопаснее):
+#   ~/.codemagic_api_key   или   ~/.config/pranaria/codemagic_api_key
+if [ -z "${CODEMAGIC_API_KEY:-}" ]; then
+  for f in "$HOME/.codemagic_api_key" "$HOME/.config/pranaria/codemagic_api_key"; do
+    if [ -f "$f" ]; then CODEMAGIC_API_KEY="$(tr -d '\n' < "$f")"; break; fi
+  done
+fi
+: "${CODEMAGIC_API_KEY:?Задайте CODEMAGIC_API_KEY (переменная) или сохраните ключ в ~/.codemagic_api_key}"
 AUTH=(-H "Authorization: Bearer $CODEMAGIC_API_KEY" -H "Content-Type: application/json")
 
 api() {  # api <METHOD> <PATH> [json]
