@@ -103,7 +103,7 @@ final class AudioDirector: NSObject, ObservableObject {
             player.play()
             phasePlayers[kind] = player
         } catch {
-            break
+            phasePlayers[kind] = nil
         }
     }
 
@@ -115,7 +115,7 @@ final class AudioDirector: NSObject, ObservableObject {
             player.play()
             phaseLoops.append(player)
         } catch {
-            break
+            phaseLoops.removeAll()
         }
     }
 
@@ -137,11 +137,10 @@ final class AudioDirector: NSObject, ObservableObject {
             return url
         }
         // Fallback для тестов/CLI: ищем рядом с исходниками.
-        let cwd = URL(fileURLWithPath: FileManager.default.currentDirectoryPath)
-        return cwd
+        let cwd = FileManager.default.currentDirectoryPath
+        let candidate = URL(fileURLWithPath: cwd)
             .appendingPathComponent("Content/Audio/\(name).\(ext)")
-            .asURL
-            .flatMap { FileManager.default.fileExists(atPath: $0.path) ? $0 : nil }
+        return FileManager.default.fileExists(atPath: candidate.path) ? candidate : nil
     }
 
     static var availableBackgrounds: [String] { ["bg_01", "bg_02", "bg_03"] }

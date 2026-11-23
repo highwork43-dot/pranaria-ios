@@ -28,6 +28,17 @@ struct PranariaApp: App {
 
 /// Пути к данным приложения.
 enum AppPaths {
+
+    /// Корень пакета (рядом с Content/) — для запуска из исходников и тестов.
+    nonisolated static var packageRoot: String {
+        URL(fileURLWithPath: #filePath)   // Sources/PranariaApp/App/AppState.swift
+            .deletingLastPathComponent()   // App
+            .deletingLastPathComponent()   // PranariaApp
+            .deletingLastPathComponent()   // Sources
+            .deletingLastPathComponent()   // корень пакета
+            .path
+    }
+
     static var directory: URL {
         let base = FileManager.default.urls(for: .applicationSupportDirectory, in: .userDomainMask).first
             ?? URL(fileURLWithPath: NSTemporaryDirectory())

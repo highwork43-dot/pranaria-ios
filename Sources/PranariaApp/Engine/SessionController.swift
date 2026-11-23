@@ -112,10 +112,12 @@ final class SpeechDirector: ObservableObject {
     @Published var speaksGuidance: Bool = false
 
     private let synthesizer = AVSpeechSynthesizer()
+    /// Голос задаётся на utterance — у самого синтезатора такого свойства нет.
+    private var voice: AVSpeechSynthesisVoice?
     private var lastSpokenCycle = 0
 
     func configure() {
-        synthesizer.voice = AVSpeechSynthesisVoice(language: "ru-RU")
+        voice = AVSpeechSynthesisVoice(language: "ru-RU")
             ?? AVSpeechSynthesisVoice(language: "ru")
     }
 
@@ -151,7 +153,7 @@ final class SpeechDirector: ObservableObject {
             synthesizer.stopSpeaking(at: .word)
         }
         let utterance = AVSpeechUtterance(string: text)
-        utterance.voice = synthesizer.voice
+        utterance.voice = voice
         utterance.rate = 0.45
         utterance.volume = 1.0
         synthesizer.speak(utterance)

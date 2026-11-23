@@ -48,14 +48,7 @@ final class CatalogController: ObservableObject {
     }
 
     /// Корень пакета (рядом с Content/) — для запуска из исходников и тестов.
-    static var packageRoot: String {
-        URL(fileURLWithPath: #filePath)
-            .deletingLastPathComponent()   // App
-            .deletingLastPathComponent()   // PranariaApp
-            .deletingLastPathComponent()   // Sources
-            .deletingLastPathComponent()   // корень пакета
-            .path
-    }
+    static var packageRoot: String { AppPaths.packageRoot }
 }
 
 /// Прогресс, аналитика и достижения — обёртки над ядром.
